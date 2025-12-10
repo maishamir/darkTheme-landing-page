@@ -1,0 +1,33 @@
+// Base Raleway mixin
+@mixin raleway-type($weight: normal, $size, $line: 120%, $letter: 0px) {
+  font-family: "Raleway", sans-serif;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line;
+  letter-spacing: $letter;
+}
+
+// Base Open Sans mixin
+@mixin opensans-type($weight: normal, $size, $line: 150%, $letter: 0px) {
+  font-family: "Open Sans", sans-serif;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line;
+  letter-spacing: $letter;
+}
+
+// Individual text styles (easy to adjust!)
+@mixin tp1 { @include raleway-type(bold, 2.5rem); }
+@mixin tp2 { @include raleway-type(bold, 1.25rem); }
+@mixin tp3-reg { @include raleway-type(normal, 1rem); }
+@mixin tp3-bold { @include raleway-type(bold, 1rem); }
+@mixin tp4 { @include raleway-type(bold, 0.875rem); }
+@mixin tp5 { @include raleway-type(normal, 0.75rem); }
+
+@mixin tp6 { @include opensans-type(normal, 1.25rem); }
+@mixin tp7 { @include opensans-type(normal, 1rem); }
+@mixin tp7-bold { @include opensans-type(bold, 1rem); }
+@mixin tp8 { @include opensans-type(normal, 0.875rem); }
+@mixin tp9 { @include opensans-type(normal, 0.625rem, 180%, 0.5px); }
+@mixin tp9-bold { @include opensans-type(bold, 0.625rem, 180%, 0.5px); }
+@mixin tp10 { @include opensans-type(normal, 0.4375rem, 150%, 0.5px); }
