@@ -17,4 +17,15 @@ import arrowIcon from "@/assets/images/icon-arrow.svg";
     </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.button {
+    &--button {
+        @include tp4;
+        color: white;
+        padding: 1rem 5rem;
+        border: none;
+        border-radius: 1.5rem;
+        background: $gradient;
+    }
+}
+</style>
