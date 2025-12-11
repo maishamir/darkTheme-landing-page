@@ -1,11 +1,11 @@
 <script setup>
-import logo from "@/assets/images/logo.svg";
-import locationIcon from "@/assets/images/icon-location.svg";
-import phoneIcon from "@/assets/images/icon-phone.svg";
-import emailIcon from "@/assets/images/icon-email.svg";
-import fbIcon from "@/assets/images/icon-fb.png";
-import xIcon from "@/assets/images/icon-x.png";
-import instaIcon from "@/assets/images/icon-insta.png";
+import logo from "/images/logo.svg";
+import locationIcon from "/images/icon-location.svg";
+import phoneIcon from "/images/icon-phone.svg";
+import emailIcon from "/images/icon-email.svg";
+import fbIcon from "/images/icon-fb.png";
+import xIcon from "/images/icon-x.png";
+import instaIcon from "/images/icon-insta.png";
 
 </script>
 
@@ -98,6 +98,7 @@ import instaIcon from "@/assets/images/icon-insta.png";
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
+
         &-group {
             display: flex;
             flex-direction: column;
@@ -117,6 +118,7 @@ import instaIcon from "@/assets/images/icon-insta.png";
         display: flex;
         justify-content: center;
         gap: 0.675rem;
+
         &-link {}
 
         &-icon {
