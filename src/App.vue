@@ -23,5 +23,7 @@ import profileImg from "@/assets/images/profile-1.jpg";
 <style lang="scss" scoped>
 .app {
   background-color: $navy950;
+  padding: 1.5rem;
+  color: white;
 }
 </style>
