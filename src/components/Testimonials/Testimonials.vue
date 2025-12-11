@@ -1,7 +1,7 @@
 <script setup>
 import testimonialData from '@/assets/data/testimonialData.json';
 import TestimonyCard from '../TestimonyCard/TestimonyCard.vue';
-import bgQuotes from "@/assets/images/bg-quotes.png"
+import bgQuotes from "/images/bg-quotes.png"
 </script>
 <template>
     <section class="testimonials">
