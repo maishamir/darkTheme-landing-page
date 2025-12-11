@@ -28,8 +28,8 @@ defineProps(["cardCopy", "userImg", "userName", "userRole", "userCompany"])
 <style lang="scss">
 .card {
     background-color: $navy800;
-    padding: 1.5rem;
-    border-radius:0.25rem;
+    padding: 1.5rem !important;
+    border-radius: 0.25rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
