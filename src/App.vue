@@ -12,10 +12,12 @@ import profileImg from "@/assets/images/profile-1.jpg";
   <main class="app">
     <NavBar />
     <Hero />
-    <Button button-type="button" button-text="Get Started" />
-    <Button button-type="link" button-text="See how Fylo works" />
+    <!-- <Button button-type="button" button-text="Get Started" />
+    <Button button-type="link" button-text="See how Fylo works" /> -->
 
-    <TestimonyCard card-copy="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine." :user-img="profileImg" user-name="Satish Patel" user-role="Founder & CEO" user-company="Huddle" />
+    <TestimonyCard
+      card-copy="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+      :user-img="profileImg" user-name="Satish Patel" user-role="Founder & CEO" user-company="Huddle" />
 
     <SignupForm />
     <Footer />
@@ -24,7 +26,6 @@ import profileImg from "@/assets/images/profile-1.jpg";
 
 <style lang="scss" scoped>
 .app {
-  background-color: $navy950;
   padding: 1.5rem;
   color: white;
 }

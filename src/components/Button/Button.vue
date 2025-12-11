@@ -24,10 +24,12 @@ import arrowIcon from "@/assets/images/icon-arrow.svg";
     &--button {
         @include tp4;
         color: white;
-        padding: 1rem 5rem;
+        padding: 1rem;
+        width: 100%;
         border: none;
         border-radius: 1.5rem;
         background: $gradient;
+        white-space: nowrap;
     }
 
     &--link {
@@ -36,12 +38,13 @@ import arrowIcon from "@/assets/images/icon-arrow.svg";
         align-items: center;
         @include tp8;
         text-decoration: none;
-        
+
     }
 
     &--copy {
         border-bottom: 1px solid $blue300;
     }
+
     &--img {
         height: 0.75rem;
         width: 0.75rem;
