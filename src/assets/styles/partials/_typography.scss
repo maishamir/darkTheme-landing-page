@@ -29,5 +29,5 @@
 @mixin tp7-bold { @include opensans-type(bold, 1rem); }
 @mixin tp8 { @include opensans-type(normal, 0.875rem); }
 @mixin tp9 { @include opensans-type(normal, 0.625rem, 180%, 0.5px); }
-@mixin tp9-bold { @include opensans-type(bold, 0.625rem, 180%, 0.5px); }
+@mixin tp9-bold { @include opensans-type(bold, 0.625rem, 150%, 0.5px); }
 @mixin tp10 { @include opensans-type(normal, 0.4375rem, 150%, 0.5px); }

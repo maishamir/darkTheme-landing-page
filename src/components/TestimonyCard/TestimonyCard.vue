@@ -1,8 +1,8 @@
 <script setup>
-    defineProps(["cardCopy", "userImg", "userName", "userRole", "userCompany"])
+defineProps(["cardCopy", "userImg", "userName", "userRole", "userCompany"])
 </script>
 
-<template> 
+<template>
     <div class="card">
         <div class="card__body">
             <p class="card__copy">
@@ -26,5 +26,43 @@
 </template>
 
 <style lang="scss">
-    
+.card {
+    background-color: $navy800;
+    padding: 1.5rem;
+    border-radius:0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    &__body {
+        @include tp9;
+    }
+
+    &__copy {}
+
+    &__footer {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    &__img {
+        height: 1.5rem;
+        border-radius: 50%;
+    }
+
+    &__userDeets {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    &__username {
+        @include tp9-bold;
+    }
+
+    &__role-company {
+        @include tp10;
+    }
+}
 </style>
