@@ -1,6 +1,6 @@
 <script setup>
 // defineProps([])
-import logo from "@/assets/images/logo.svg";
+import logo from "/images/logo.svg";
 </script>
 
 <template>

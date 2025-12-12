@@ -1,6 +1,6 @@
 <script setup>
 defineProps(['buttonText', 'buttonType']);
-import arrowIcon from "@/assets/images/icon-arrow.svg";
+import arrowIcon from "/images/icon-arrow.svg";
 
 </script>
 

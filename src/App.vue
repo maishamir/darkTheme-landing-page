@@ -43,6 +43,7 @@ import wave from "/images/bg-curvy-mobile.svg";
     right: 0;
     top: 17.5rem;
     z-index: 0;
+    width: 100%;
   }
 
   .waveBg {
