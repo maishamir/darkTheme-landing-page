@@ -19,4 +19,9 @@ import Button from "../Button/Button.vue";
         </div>
     </section>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+    .hero {
+        position: relative;
+        z-index: 2;
+    }
+</style>

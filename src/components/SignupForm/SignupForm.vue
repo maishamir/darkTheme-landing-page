@@ -23,6 +23,9 @@ import Button from '../Button/Button.vue';
 </template>
 <style lang="scss" scoped>
 .signupForm {
+    position: relative;
+    top: 11rem;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     text-align: center;

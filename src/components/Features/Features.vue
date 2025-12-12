@@ -10,6 +10,8 @@ import Feature from "../Feature/Feature.vue";
 </template>
 <style lang="scss" scoped>
     .features {
+        position: relative;
+        z-index: 2;
         display: flex;
         flex-direction: column;
         gap: 5rem;

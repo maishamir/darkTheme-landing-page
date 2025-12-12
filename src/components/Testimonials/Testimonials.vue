@@ -15,6 +15,7 @@ import bgQuotes from "/images/bg-quotes.png"
 <style lang="scss" scoped>
 .testimonials {
     position: relative;
+    z-index: 2;
 
     &__img {
         width: 2rem;
@@ -27,6 +28,6 @@ import bgQuotes from "/images/bg-quotes.png"
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: 9rem 0;
+    margin: 9rem 0 0 0;
 }
 </style>

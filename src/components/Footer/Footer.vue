@@ -60,11 +60,18 @@ import instaIcon from "/images/icon-insta.png";
 
 <style lang="scss" scoped>
 .footer {
-
-    &__container {
-        margin-top: 5.3rem;
+    height: 61rem;
+    background-color: $navy950;
+    padding: 1.5rem;
+    position: relative;
+    z-index: 1;
+    position: relative;
         display: flex;
         flex-direction: column;
+
+    &__container {
+        position: relative;
+        top: 260px;
     }
 
     &__logo {
