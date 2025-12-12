@@ -23,5 +23,28 @@ import Button from "../Button/Button.vue";
     .hero {
         position: relative;
         z-index: 2;
+        margin-top: 3rem;
+
+        &__img {
+            width: 100%;
+        }
+
+        &__body {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        &__heading {
+            @include tp2;
+        }
+
+        &__copy {
+            @include tp8;
+        }
+        
     }
 </style>

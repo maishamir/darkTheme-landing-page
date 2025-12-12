@@ -24,7 +24,7 @@ import arrowIcon from "@/assets/images/icon-arrow.svg";
     &--button {
         @include tp4;
         color: white;
-        padding: 1rem;
+        padding: 1rem 5rem;
         width: 100%;
         border: none;
         border-radius: 1.5rem;
