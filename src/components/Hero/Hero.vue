@@ -27,6 +27,7 @@ import Button from "../Button/Button.vue";
 
         &__img {
             width: 100%;
+            margin-bottom: 4.5rem;
         }
 
         &__body {
