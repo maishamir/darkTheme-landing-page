@@ -35,11 +35,23 @@ import Button from '../Button/Button.vue';
     box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
 
 
+    @include tablet {
+        // width: 63%;
+        max-width: 65%;
+        margin: 0 auto;
+        padding: 3rem 2.5rem;
+    }
+
+
     &__body {
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        margin-bottom: 2rem
+        margin-bottom: 2rem;
+
+        @include tablet {
+            gap: 1.5rem
+        }
     }
 
     &__title {
@@ -62,11 +74,18 @@ import Button from '../Button/Button.vue';
             padding: 0.875rem;
             border-radius: 1.5rem;
             margin-bottom: 1.5rem;
-            // width: 100%;
+
+            @include tablet {
+                padding: 0.875rem 2rem;
+            }
 
 
             &::placeholder {
                 color: $gray400;
+
+                @include tablet {
+                    text-align: left;
+                }
             }
         }
     }
