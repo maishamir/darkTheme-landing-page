@@ -20,8 +20,9 @@ import bgQuotes from "/images/bg-quotes.png"
 
 
     @include tablet {
-        max-width: 65%;
-        margin: 0 auto;
+        width: 65vw;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 4.5rem;
 
     }

@@ -34,8 +34,19 @@ defineProps(["cardCopy", "userImg", "userName", "userRole", "userCompany"])
     flex-direction: column;
     gap: 1rem;
 
+    @include tablet {
+        padding: 2.5rem !important;
+        @include tablet{
+            width: 100%;
+        }
+    }
+
     &__body {
         @include tp9;
+
+        @include tablet {
+            @include tp8;
+        }
     }
 
     &__copy {}

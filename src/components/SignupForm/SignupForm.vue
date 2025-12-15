@@ -36,8 +36,8 @@ import Button from '../Button/Button.vue';
 
 
     @include tablet {
-        // width: 63%;
-        max-width: 65%;
+        width: 63vw;
+        max-width: 65vw;
         margin: 0 auto;
         padding: 3rem 2.5rem;
     }
