@@ -16,6 +16,15 @@ import bgQuotes from "/images/bg-quotes.png"
 .testimonials {
     position: relative;
     z-index: 2;
+    margin: 9rem 0 0 0;
+
+
+    @include tablet {
+        max-width: 65%;
+        margin: 0 auto;
+        margin-top: 4.5rem;
+
+    }
 
     &__img {
         width: 2rem;
@@ -23,11 +32,17 @@ import bgQuotes from "/images/bg-quotes.png"
         top: -1.5rem;
         z-index: -1;
         left: 0.5rem;
+
+        @include tablet {
+            width: 3.5rem;
+            // height: auto;
+            top: -2rem;
+            left: -0.75rem;
+        }
     }
 
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: 9rem 0 0 0;
 }
 </style>
