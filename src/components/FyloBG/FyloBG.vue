@@ -22,10 +22,21 @@ import productiveImg from "/images/illustration-stay-productive.png";
 .fyloBG {
     position: relative;
     z-index: 2;
+
+    @include tablet {}
+
     &__img {
         width: 100%;
         margin-top: 10rem;
         margin-bottom: 3rem;
+
+        @include tablet {
+            width: 95%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
     }
 
     &__body {

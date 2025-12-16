@@ -33,6 +33,10 @@ import wave from "/images/bg-curvy-mobile.svg";
 
   &__container {
     padding: 1.5rem;
+
+    @include tablet {
+      padding: 5rem 3.5rem;
+    }
   }
 
   color: white;
