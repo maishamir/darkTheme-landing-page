@@ -16,5 +16,10 @@ import Feature from "../Feature/Feature.vue";
         flex-direction: column;
         gap: 5rem;
         margin-top: 8.75rem;
+
+        @include tablet {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 </style>
